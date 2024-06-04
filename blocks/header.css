@@ -1,0 +1,21 @@
+.header {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border: 1px solid white;
+}
+.header__logo {
+  border: 1px solid white;
+}
+.header__lead {
+  border: 1px solid white;
+}
+.header__title {
+  border: 1px solid white;
+}
+.header__subtitle {
+  border: 1px solid white;
+}
+.header__image {
+  border: 1px solid white;
+}

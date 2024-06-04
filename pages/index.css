@@ -1,0 +1,6 @@
+@import url(/blocks/logo.css);
+@import url(/blocks/header.css);
+
+.page {
+  background-color: #2a2c2f;
+}
