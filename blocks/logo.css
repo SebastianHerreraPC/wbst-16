@@ -1,7 +1,6 @@
 .logo {
   max-width: 51px;
   margin: 20px auto 0;
-  border: 1px solid white;
 }
 @media screen and (min-width: 720px) {
   .logo {
