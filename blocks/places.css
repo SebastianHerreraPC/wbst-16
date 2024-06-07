@@ -6,6 +6,9 @@
   margin: 62px auto 0;
 }
 .places__container {
+  margin-top: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #4a4a4a;
 }
 .place__title {
   width: 288px;
