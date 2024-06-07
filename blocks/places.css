@@ -4,10 +4,8 @@
   flex-direction: column;
   justify-content: center;
   margin: 62px auto 0;
-  border: 1px solid white;
 }
 .places__container {
-  border: 1px solid white;
 }
 .place__title {
   width: 288px;
@@ -15,25 +13,21 @@
   font-weight: bold;
   line-height: 35px;
   margin: 0 auto;
-  border: 1px solid white;
 }
 .place__photo-description {
   font-size: 12px;
   line-height: auto;
   color: #aaa;
   margin-top: 30px;
-  border: 1px solid white;
 }
 .place__photo {
   height: 320px;
   width: 100%;
-  border: 1px solid white;
 }
 .place__description {
   font-size: 16px;
   line-height: 163%;
   text-align: left;
-  border: 1px solid white;
 }
 .button {
   display: flex;
@@ -47,5 +41,6 @@
   width: 288px;
   font-size: 14px;
   color: #fff;
-  border: 1px solid white;
+  border: 0;
+  border-radius: 5px;
 }
