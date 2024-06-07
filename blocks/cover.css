@@ -30,7 +30,8 @@
   font-weight: bold;
 }
 .cover__subtitle {
-  font-size: 14px;
+  color: black;
+  font-size: 16px;
   line-height: 16px;
   font-weight: 400;
 }
