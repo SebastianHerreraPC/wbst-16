@@ -1,13 +1,11 @@
 .cover {
   margin: 48px auto 20px;
-
   position: relative;
   background-image: url(/images/zocalo.png);
   background-position: center;
   background-repeat: no-repeat;
   height: 254px;
   width: 100%;
-  border: 1px solid white;
 }
 .cover__layer {
   display: block;
@@ -25,26 +23,24 @@
   margin: 48px auto;
   flex-direction: column;
   width: 288px;
-  border: 1px solid white;
 }
 .cover__title {
   font-size: 32px;
   line-height: 35px;
   font-weight: bold;
-  border: 1px solid white;
 }
 .cover__subtitle {
   font-size: 14px;
   line-height: 16px;
   font-weight: 400;
-  border: 1px solid white;
 }
 .cover__button {
+  border: 0;
+  border-radius: 5px;
   margin: 8px auto 0;
   background-color: #0278fe;
   height: 48px;
   width: 288px;
   font-size: 18px;
   color: #fff;
-  border: 1px solid white;
 }
