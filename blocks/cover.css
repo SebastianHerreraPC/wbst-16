@@ -18,9 +18,11 @@
 }
 .cover__content {
   display: flex;
+  position: absolute;
   justify-content: center;
   align-items: center;
-  margin: 48px auto;
+  margin: 0 16px 0;
+  top: 20px;
   flex-direction: column;
   width: 288px;
 }
@@ -30,7 +32,6 @@
   font-weight: bold;
 }
 .cover__subtitle {
-  color: black;
   font-size: 16px;
   line-height: 16px;
   font-weight: 400;
