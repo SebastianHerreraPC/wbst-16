@@ -30,3 +30,37 @@
   font-weight: 400;
   line-height: 163%;
 }
+
+@media screen and (min-width: 768px) {
+  .intro {
+    width: 720px;
+  }
+  .intro__title {
+    font-size: 54px;
+    line-height: 58px;
+    margin-bottom: 15px;
+  }
+  .intro__subtitle {
+    margin-bottom: 15px;
+  }
+  .intro__quote {
+    margin: 0 auto;
+  }
+  .intro__text {
+    margin: 42px auto 64px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .intro {
+    width: 1017px;
+  }
+  .intro__subtitle-container {
+    width: 722px;
+  }
+  .intro__subtitle {
+  }
+  .intro__text {
+    margin: 42px 0 64px;
+    width: 722px;
+  }
+}
