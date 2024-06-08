@@ -13,3 +13,23 @@
 .photo__grid-img:last-child {
   margin-bottom: 0;
 }
+
+@media screen and (min-width: 768px) {
+  .photo__grid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    width: 720px;
+  }
+  .photo__grid-img {
+    width: 352px;
+  }
+}
+@media screen and (min-width: 1280px) {
+}
