@@ -53,8 +53,37 @@
     display: grid;
     border: 1px solid white;
     grid-template-columns: repeat(2, 1fr);
+    gap: 28px;
     grid-template-rows: auto;
+    margin: 0 24px 31px;
+  }
+  .place__title {
+    font-size: 42px;
+    line-height: 46px;
+    border: 1px solid white;
+  }
+  .place__description {
+    text-align: justify;
+  }
+  .place__photo {
+    margin-left: 10px;
+    height: 320px;
+    width: 320px;
+  }
+  .place__button {
+    width: 320px;
+    height: 48px;
   }
 }
 @media screen and (min-width: 1280px) {
+  .place__title {
+    font-size: 72px;
+    line-height: normal;
+    width: 484px;
+  }
+  .place__photo {
+    margin-left: 50px;
+    height: 460px;
+    width: 460px;
+  }
 }
