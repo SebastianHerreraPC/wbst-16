@@ -53,16 +53,22 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    filter: grayscale(0.5);
   }
   .cover__layer {
     display: none;
   }
-  .cover:hover {
-    background-color: #2a2c2f;
-
-    opacity: 0.3;
-
-    transition: 5s ease-in-out forwards;
+  .cover__title {
+    font-size: 72px;
+    margin: 246px auto 32px;
+    color: black;
+  }
+  .cover__subtitle {
+    text-align: center;
+    font-size: 30px;
+    line-height: normal;
+    margin: 0 auto 32px;
+    color: black;
   }
 }
 @media screen and (min-width: 1280px) {
